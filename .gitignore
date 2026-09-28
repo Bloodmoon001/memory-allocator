@@ -1,0 +1,38 @@
+# Build directories
+build/
+out/
+bin/
+lib/
+dist/
+cmake-build-*/
+
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.sln.user
+
+# Compiled files
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.pdb
+*.ilk
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+Testing/
+
+# vcpkg
+vcpkg_installed/
+
+# Visual Studio CMake settings (machine-specific paths)
+CMakeSettings.json
